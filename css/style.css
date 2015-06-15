@@ -1,0 +1,125 @@
+
+body {
+	background-color: #eee;
+	color: #222;
+	font-family: Verdana;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ol {
+	padding-left: 30px;
+	margin: 0px;
+}
+
+li {
+	clear: both;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+}
+
+
+div.container {
+	margin: auto;
+	max-width: 650px;
+}
+
+div.featured-image {
+	margin: auto;
+}
+
+div.featured-image img {
+	width: 100%;
+	max-width: 600px;
+	border: 1px solid black;
+}
+
+div.recipe-box > * {
+	background-color: rgb(245, 238, 190);
+	-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+div.recipe-box button {
+	float: right;
+}
+
+div.recipe-box h3 {
+	margin-left: 40px;
+	margin-bottom: 0px;
+	margin-right: 50%;
+	padding: 5px 5px 5px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+div.recipe-box div {
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+div.recipe-box h4 {
+	border-bottom: 1px solid #222;
+}
+
+ul.ingredient-list li {
+	margin-left: 15px;
+}
+
+ul.ingredient-list li:hover {
+	background-color: rgb(223, 250, 255);
+	border-radius: 3px;
+}
+
+ul.ingredient-list li.highlight {
+	background-color: rgb(169, 236, 249);
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+ol.instruction-steps {
+	overflow: hidden;
+	position: relative;	
+}
+
+ol.instruction-steps h5 {
+	margin-left: -30px;
+}
+
+ol.instruction-steps li:hover {
+	background-color: rgb(223, 250, 255);
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+ol.instruction-steps li * {
+	z-index: 200;
+	position: relative;
+}
+
+ol.instruction-steps li img {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	max-width: 150px;
+	float: right;
+}
+
+ol.instruction-steps #highlighted-step { 
+	position: absolute;
+	list-style: none;
+	background-color: rgb(169, 236, 249);
+	z-index: 100;
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
